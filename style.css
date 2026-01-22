@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url(../vspictures/fanctrack.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .balance, .summary {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form select, form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #transactionList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #transactionList li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #transactionList li.income {
+    border-left: 5px solid green;
+  }
+  
+  #transactionList li.expense {
+    border-left: 5px solid red;
+  }
